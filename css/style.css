@@ -1,0 +1,132 @@
+body {
+  font-family: Poppins;
+  font-size: 14px;
+  min-height: 100%;
+  min-width: 100%;
+  color: #f5f5f5;
+  background-color: rgba(235, 235, 235, 0.137254902);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.card-container {
+  height: 100vh;
+  width: 30vw;
+  background: linear-gradient(171deg, #2b777c, #2c2a8b, #e34df5);
+}
+
+.card {
+  background: linear-gradient(220deg, #e34df5, #2dc3da);
+  max-width: 400px;
+  min-height: 220px;
+  letter-spacing: 0.2rem;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 10px;
+  font-size: 20px;
+  transform: translate3d(40%, 80%, 0);
+}
+.card:not(:last-child) {
+  margin-bottom: 60px;
+}
+.card__content {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.card_backside {
+  background: linear-gradient(140deg, #ffffff, #c2c2c2);
+  transform: translate3d(60%, 80%, 0);
+}
+.card__logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+.card__number {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.card__init {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+.card__name {
+  text-transform: uppercase;
+}
+.card__black-line {
+  height: 50px;
+  width: 100%;
+  background-color: #444343;
+  margin-bottom: 20px;
+}
+.card__gray-line {
+  border-radius: 3px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 35px;
+  width: 100%;
+  background-color: rgba(145, 145, 145, 0.5137254902);
+}
+.card__cvc {
+  font-size: 14px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  width: 340px;
+}
+.form__label {
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+}
+.form__input {
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #bebebe;
+  padding: 12px;
+  margin-bottom: 1rem;
+}
+.form__input::placeholder {
+  opacity: 0.4;
+}
+.form__btn {
+  margin-top: 2rem;
+  background-color: #333;
+  letter-spacing: 0.1rem;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 3.2rem;
+  transition: all 0.1s linear;
+}
+.form__btn:hover {
+  background-color: #fff;
+  color: #333;
+}/*# sourceMappingURL=style.css.map */
