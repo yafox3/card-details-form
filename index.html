@@ -15,12 +15,7 @@
             <div class="card">
                 <div class="card__content">
                     <div class="card__logo"></div>
-                    <div class="card__number">
-                        <span>0000</span> 
-                        <span>0000</span>
-                        <span>0000</span>
-                        <span>0000</span>
-                    </div>
+                    <div class="card__number">0000 0000 0000 0000</div>
                     <div class="card__init">
                         <div class="card__name">Ruslan Kretinin</div>
                         <div class="card__date">00/00</div>
@@ -48,11 +43,10 @@
                 <label for="name" class="form__label">Cardholder name</label>
                 <input id="name" class="form__input" name="name" type="text" placeholder="e.g. Ruslan Kretinin" maxlength="32">
                 <label for="number" class="form__label">Card number</label>
-                <input id="number" class="form__input" name="number" type="text" placeholder="e.g. 1234 5678 9123 0000" maxlength="16">
+                <input id="number" class="form__input" name="number" type="text" placeholder="e.g. 1234 5678 9123 0000">
                 
                 <label for="date" class="form__label">exp. date (MM/YY)</label>
-                <input id="date-month" class="form__input" name="date" type="text" placeholder="MM" maxlength="2">
-                <input id="date-year" class="form__input" name="date" type="text" placeholder="YY" maxlength="2">
+                <input id="date" class="form__input" name="date" type="text" placeholder="MM/YY" maxlength="5">
                 <label for="cvc" class="form__label">cvc</label>
                 <input id="cvc" class="form__input" name="cvc" type="text" placeholder="e.g. 123" maxlength="3">
 
@@ -66,6 +60,7 @@
         </div>
         <!-- /.form__container -->
     </div>
-<script src="js/script.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
